@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.list-header {
+    padding: 20px 70px;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    border-radius: 50px;
+    background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
+}
+
+.contact-header {
+    padding: 15px 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+
+    transition: background-color 0.5s ease;
+}
+
+.contact-header a {
+    padding: 15px;
+}
+
+.contact-header:hover {
+    background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
+
+}
