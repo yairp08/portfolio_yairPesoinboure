@@ -85,13 +85,20 @@ main {
     flex-direction: row-reverse;
     width: 50%;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     padding: 20px;
+    align-items: center;
 }
+
+h3 {
+    font-family: monospace;
+}
+
+/* PRESENTATION */
 
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-size: 2.5rem;
 }
 
 .color-gradient {
@@ -101,6 +108,15 @@ h1 {
     
 }
 
-h3 {
-    font-family: monospace;
+.svg-items a img{
+    width: 32px;
 }
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* PRESENTATION */
+
