@@ -138,3 +138,14 @@ h1 {
 }
 
 /* END EDUCATION */
+
+/* SKILLS */
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 20px 10px 20px;
+}
+
+/* END SKILLS*/
