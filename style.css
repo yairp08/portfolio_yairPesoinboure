@@ -134,6 +134,7 @@ h1 {
 .education {
     display:flex;
     justify-content: space-between;
+    margin-bottom: 7px;
 }
 
 /* END EDUCATION */
