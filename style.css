@@ -111,8 +111,11 @@ h1 {
     
 }
 
-.svg-items a img{
-    width: 32px;
+.contact-items {
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: default;
 }
 
 .presentation {
