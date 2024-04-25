@@ -94,7 +94,6 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -169,17 +168,24 @@ h1 {
 .third-section {
     display: flex;
     flex-direction: column;
-    width: 50%;
     padding: 0 20px 10px 20px;
 }   
 
 .skills-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: 5px;
     gap: 5px;
 }
 
+.skill {
+    padding: 5px;
+    border-radius: 4px;
+    font-size: .75rem;
+    font-family: monospace;
+    color: hsl(210 20% 98% / 1);
+    background-color: hsl(221deg 39% 11% / 80%);
+}
 /* END SKILLS*/
 
 /* PROJECTS */
