@@ -206,8 +206,23 @@ h1 {
     padding: 0 20px 10px 20px;
 }
 
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 .project-title {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ccc;
     color: rgb(79, 79, 79);
     font-family: monospace;
 }
