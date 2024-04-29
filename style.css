@@ -141,6 +141,16 @@ h1 {
 
 /* END PRESENTATION */
 
+/* ABOUT */
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 10px 20px;
+}
+
+/* END ABOUT */ 
+
 /* EDUCATION */
 
 .second-section {
