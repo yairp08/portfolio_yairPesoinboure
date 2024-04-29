@@ -84,7 +84,7 @@ main {
     margin-right: auto;
 }
 
-.first-section {
+.presentation-section {
     margin-top: 50px;
     display: flex;
     flex-direction: row-reverse;
@@ -218,7 +218,7 @@ h1 {
 
 /* END PROJECTS */
 
-.first-section {
+.presentation-section {
     margin-top: 30px;
     margin-bottom: 5px;
 }
