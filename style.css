@@ -155,7 +155,7 @@ h1 {
 
 /* EDUCATION */
 
-.second-section {
+.education-section {
     display: flex;
     flex-direction: column;
     padding: 0 20px 10px 20px;
@@ -223,7 +223,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-.second-section, .third-section, .fourth-section {
+.education-section, .third-section, .fourth-section {
     margin-top: 5px;
     margin-bottom: 5px;
 }
