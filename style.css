@@ -88,10 +88,10 @@ main {
     margin-top: 50px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
-    gap: 20px;
-    padding: 0 20px 10px 20px;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 20px 10px 20px;
+    width: 100%;
 }
 
 h3 {
@@ -127,6 +127,8 @@ h1 {
 
 .contact-items {
     display:flex;
+    gap: 10px;
+    align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: default;
     flex-wrap: wrap;
