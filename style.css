@@ -175,7 +175,7 @@ h1 {
 
 /* SKILLS */
 
-.third-section {
+.skills-section {
     display: flex;
     flex-direction: column;
     padding: 0 20px 10px 20px;
@@ -223,7 +223,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-.education-section, .third-section, .fourth-section {
+.education-section, .skills-section, .fourth-section {
     margin-top: 5px;
     margin-bottom: 5px;
 }
