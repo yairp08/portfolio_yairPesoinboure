@@ -120,11 +120,19 @@ h1 {
 
 .color-gradient {
     background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
-    color: rgb(102, 102, 102);
+    color: rgb(92, 92, 92);
     padding: 3px;
     border-radius: 4px;
     background-clip: black;
     
+}
+
+.span-border {
+    padding: 2px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: hsl(210 20% 98% / 1);
+    background-color: hsl(221deg 39% 11% / 80%);
 }
 
 .contact-items {
@@ -140,7 +148,7 @@ h1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 4px;
 }
 
 /* END PRESENTATION */
