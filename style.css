@@ -180,7 +180,10 @@ h1 {
 }
 
 .education h3 {
-    font-size: 1rem;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    color: rgb(79, 79, 79);
+    font-family: monospace;
 }
 
 /* END EDUCATION */
@@ -246,9 +249,6 @@ h1 {
     border-bottom: 1px solid black;
 }
 
-.project-description {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 /* END PROJECTS */
 
