@@ -76,7 +76,7 @@ a {
 
 
 .contact-header:hover {
-    background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
 }
 
 /* MAIN */
@@ -191,7 +191,6 @@ h1 {
 }
 
 .education h3 {
-    border-bottom: 1px solid #ccc;
     font-weight: bold;
     color: rgb(79, 79, 79);
     font-family: monospace;
