@@ -236,16 +236,18 @@ h1 {
 }
 
 .project-title {
-    font-size: 1.2em;
-    border-bottom: 1px solid #ccc;
+    font-size: 1.3em;
     font-weight: bold;
     color: rgb(79, 79, 79);
     font-family: monospace;
+    cursor: default;
 }
 
-.project-title:hover {
-    color: black;
-    border-bottom: 1px solid black;
+.project-link {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgba(69, 137, 201, 0.692);
+    font-family: monospace;
 }
 
 
