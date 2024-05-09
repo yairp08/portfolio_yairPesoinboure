@@ -164,7 +164,7 @@ h1 {
     border-radius: 4px;
     font-family: monospace;
     color: hsl(210 20% 98% / 1);
-    background-color: hsl(221deg 39% 11% / 80%);
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
 }
 
 .contact-items {
