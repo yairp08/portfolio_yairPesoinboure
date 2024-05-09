@@ -27,6 +27,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: nav-font;
     color: black;
     padding: 5px;
 }
@@ -41,20 +42,6 @@ a {
     color: black;
 }
 
-.list-header {
-    font-family: nav-font;
-    padding: 20px 70px;
-    display: flex;
-    gap: 30px;
-    list-style-type: none;
-    border-radius: 50px;
-    background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
-}
-
-.list-header li a {
-    color: black;
-}
-
 .contact-header {
     padding: 15px 15px;
     border: 1px solid black;
@@ -63,38 +50,97 @@ a {
 }
 
 .contact-header a {
-    padding: 15px;
     color: black;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    width: 42rem;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 800px) {
+    .header-container {
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 703px) {
+    .main {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+
 .contact-header:hover {
-    background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
 }
 
 /* MAIN */
 
 
 main {
-    max-width: 100%;
+    max-width: 42rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
 }
 
-.first-section {
+.presentation-section {
     margin-top: 50px;
     display: flex;
     flex-direction: row-reverse;
-    width: 50%;
-    justify-content: center;
-    gap: 20px;
-    padding: 0 20px 10px 20px;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 20px 10px 20px;
+    width: 100%;
+}
+
+.foto-presentacion {
+    height: 128px;
+    border-radius: 60%;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 128px;
+    box-shadow: 15px 10px black;
+}
+
+.location {
+    padding: 5px;
+    border-radius: 4px;
+    font-size: .75rem;
+    font-family: monospace;
+    color: hsl(0, 0%, 12%);
+    background-color: hsla(0, 0%, 63%, 0.308);
 }
 
 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    border-bottom: .1px solid black;
+}
+
+p {
     font-family: monospace;
+    color: hsl(220 8.9% 46.1%);
+    font-size: .875rem;
 }
 
 /* PRESENTATION */
@@ -105,33 +151,55 @@ h1 {
 }
 
 .color-gradient {
-    background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
     color: transparent;
     background-clip: text;
-    
+    padding: 3px;
+    border-radius: 4px;
+    background-clip: text;
+}
+
+.span-border {
+    padding: 2px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: hsl(210 20% 98% / 1);
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
 }
 
 .contact-items {
     display:flex;
-    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: default;
+    flex-wrap: wrap;
 }
 
 .presentation {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    flex-wrap: wrap;
+    gap: 4px;
 }
 
 /* END PRESENTATION */
 
-/* EDUCATION */
+/* ABOUT */
 
-.second-section {
+.about-section {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    padding: 0 20px 10px 20px;
+}
+
+/* END ABOUT */ 
+
+/* EDUCATION */
+
+.education-section {
+    display: flex;
+    flex-direction: column;
     padding: 0 20px 10px 20px;
 }
 
@@ -141,41 +209,86 @@ h1 {
     margin-bottom: 7px;
 }
 
+.education h3 {
+    font-weight: bold;
+    color: rgb(79, 79, 79);
+    font-family: monospace;
+}
+
 /* END EDUCATION */
 
 /* SKILLS */
 
-.third-section {
+.skills-section {
     display: flex;
     flex-direction: column;
-    width: 50%;
     padding: 0 20px 10px 20px;
-}
+}   
 
 .skills-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-top: 5px;
+    gap: 5px;
 }
 
+.skill {
+    padding: 5px;
+    border-radius: 4px;
+    font-size: .75rem;
+    font-family: monospace;
+    color: hsl(210 20% 98% / 1);
+    background-color: hsl(221deg 39% 11% / 80%);
+}
 /* END SKILLS*/
 
 /* PROJECTS */
 
-.fourth-section {
+.projects-section {
     display: flex;
     flex-direction: column;
-    width: 50%;
     padding: 0 20px 10px 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 5px;
 }
 
 .project-title {
     font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(79, 79, 79);
+    font-family: monospace;
+    cursor: default;
 }
 
-.project-description {
-    font-size: 1.1em;
+.project-link {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgba(69, 137, 201, 0.692);
+    font-family: monospace;
 }
+
 
 /* END PROJECTS */
+
+.presentation-section {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.education-section, .skills-section, .projects-section {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

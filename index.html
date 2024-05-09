@@ -9,26 +9,41 @@
 <body>
     <header class="header">
         <div class="brand-header">YP</div>
-        <div class="contact-header"><a href="ejdownload.pdf">DESCARGAR CV</a></div>
+        <div class="contact-header"><a href="cv.pdf" target="_blank">DESCARGAR CV</a></div>
+
     </header>
 
     <main class="main">
-        <section class="first-section">
-            <img src="img/icono-persona.jpg" width="128px" height="128px" alt="Logo Foto Personal">
+        <section class="presentation-section">
+            <img class="foto-presentacion" src="img/perfil/foto-sbg.png" alt="">
+            
             <div class="presentation">
-                <h1 class="color-gradient">Soy Yair Pesoinboure</h1>
-                <h3>Lorem ipsum dolor sit amet consectetur <span class="color-gradient"> analista de sistemas   </span> Veritatis iusto minus excepturi cupiditate temporibus aut suscipit doloribus deserunt nihil ut tempore, iste molestiae, ab alias maiores corrupti. Vitae, modi quas.</h3>
+                <h1 class="color-gradient">Soy Yair Pesoinboure,</h1>
+                <div><p>estudiante de <span class="span-border"> analista de sistemas. </span></p></div>
                 <div class="contact-items">
-                    <span >&#128204;Chacabuco</span>
-                    <span >&#128241;+54 9 2352-440918</span>
-                    <span >&#128231;yairpesoinboure08@gmail.com</span>
+                    <a href="https://github.com/yairp08" target="_blank"><img src="./img/presentacion/githubsvg.svg" width="24px" alt="Icono github"></a>
+                    <a href="https://www.linkedin.com/in/yair-pesoinboure-07a0a3231/" target="_blank" alt="Icono linkedin"><img src="./img/presentacion/linkedinsvg.svg" width="24px" alt=""></a>
+                    <a href="mailto:yairpesoinboure08@gmail.com" ><img src="./img/presentacion/mailsvg.svg" width="30px" alt="Icono mail"></a>
                 </div>
+                <p><span class="location" style="border-bottom: 2px solid #ccc;">Chacabuco, Buenos Aires</span></p>
+
             </div>
         </section>
 
-        <section class="second-section">
+        <section class="about-section">
+            <h2>Sobre mi</h2>
+            <div class="about">
+                <p>
+                    Me considero una persona puntual, responsable y flexible, con habilidades sólidas para trabajar en equipo.
+                    Poseo conocimientos en desarrollo web, especialmente enfocado en el backend, así como en bases de datos relacionales
+                    y tecnologías en general. Actualmente estoy buscando mi primera experiencia en el mundo del desarrollo para 
+                    seguir creciendo y aplicar mis conocimientos.
+                </p>
+            </div>
+        </section>
+
+        <section class="education-section">
             <h2>Educación</h2>
-            <hr>
             <div class="education">
                 <div class="education-info">
                     <h3>Instituto Superior De Formación Técnica Nº132</h3>
@@ -40,7 +55,7 @@
             </div>
             <div class="education">
                 <div class="education-info">
-                    <h3>Escuela De Educación Secundaria Nº4 "Lib Gral José De San Martín"</h3>
+                    <h3>E.E.S Nº4 "Lib Gral José De San Martín"</h3>
                     <p>Economía</p>
                 </div>
                 <div class="education-date">
@@ -49,29 +64,50 @@
             </div>
         </section>
 
-        <section class="third-section">
-            <h2>Skills</h2>
-            <hr>
+        <section class="skills-section">
+            <h2>Habilidades</h2>
             <div class="skills-container">
-                <img src="img/skills/html.svg" alt="html">
-                <img src="img/skills/css.svg" alt="css">
-                <img src="img/skills/python.svg" alt="python">
-                <img src="img/skills/django.svg" alt="django">
-                <img src="img/skills/flask.svg" alt="flask">
-                <img src="img/skills/git.svg" alt="">                
-                <img src="img/skills/github.svg" alt="">                
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">Bootstrap</div>
+                <div class="skill">Python</div>
+                <div class="skill">Django</div>
+                <div class="skill">Django Rest</div>
+                <div class="skill">Flask</div>
+                <div class="skill">SQL</div>
+                <div class="skill">Git</div>
+                <div class="skill">Github</div>
+            </div>
             </div>
         </section>
-
-        <section class="fourth-section">
+        <section class="projects-section">
             <h2>Proyectos</h2>
-            <hr>
-            <div class="project-container">
-                <h3><a class="project-title" href="">Meme Generator</a></h3>
-                <p class="project-description">Aplicación realizada en React en el curso de FreeCodeCamp</p>
+            <div class="projects-container">
+                <div class="project-container">
+                    <h3 class="project-title">Meme generator</h3>
+                    <p class="project-description">Aplicación generadora de memes realizada con React.</p>
+                    <div><a class="project-link" target="_blank" href="https://github.com/yairp08/memegenerator-react">Ver en github &#8599;</a></div>
+                </div>
+                <div class="project-container">
+                    <h3 class="project-title">CRUD Tasks</h3>
+                    <p class="project-description">Aplicación CRUD de tareas realizada con React.</p>
+                    <div><a class="project-link" target="_blank" href="https://github.com/yairp08/react-tasks-example">Ver en github &#8599;</a></div>
+                </div>
+                <div class="project-container">
+                    <h3 class="project-title">Tecnocel</h3>
+                    <p class="project-description">Aplicación con autenticación para gestionar inventario, ventas, reparaciones y clientes de una empresa que provee servicios de celulares. Realizada con Flask</p>
+                    <div><a class="project-link" target="_blank" href="https://github.com/yairp08/tecnocel_gestion_ventas_reparaciones">Ver en github &#8599;</a></div>
+                </div>
+                <div class="project-container">
+                    <h3 class="project-title">Projects API</h3>
+                    <p class="project-description">API para gestionar proyectos. Realizada con Django Rest Framework</p>
+                    <div><a class="project-link" target="_blank" href="https://github.com/yairp08/react-tasks-example">Ver en github &#8599;</a></div>
+                </div>
             </div>
         </section>
     </main>
+    <script>
 
+    </script>
 </body>
 </html>
