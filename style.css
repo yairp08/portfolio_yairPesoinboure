@@ -30,6 +30,8 @@ a {
     font-family: nav-font;
     color: black;
     padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .brand-header {
