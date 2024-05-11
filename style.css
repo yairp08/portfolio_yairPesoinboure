@@ -29,7 +29,6 @@ a {
     align-items: center;
     color: black;
     padding: 5px;
-    width: 42rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -51,12 +50,12 @@ a {
     gap: 30px;
     list-style-type: none;
     border-radius: 50px;
-    background: linear-gradient(to right, #2c3e50, #4ca1af);
-    color: white;
+    background: white;
+    border: 1px solid black;
 }
 
 .languages a {
-    color:white;
+    color:black;
 }
 
 .list-header li a {
