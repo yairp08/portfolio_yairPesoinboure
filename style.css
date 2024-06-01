@@ -101,8 +101,15 @@ a {
 
 /* MAIN */
 
+body {
+    background-image: url(https://tailwindcss.com/_next/static/media/hero@75.b2469a49.jpg);
+    background-position: center center;
+    background-size: cover;
+}
 
 main {
+    background: linear-gradient(to bottom #DEF2FB #EBF6FC);
+
     max-width: 42rem;
     display: flex;
     justify-content: center;
