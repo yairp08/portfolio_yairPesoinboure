@@ -30,6 +30,26 @@ a {
     font-family: nav-font;
     color: black;
     padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.languages {
+    border: 1px solid black;
+    padding: 15px 15px;
+    border-radius: 50px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.languages a {
+    color:hsl(221deg 39% 11% / 80%);
+}
+
+.languages a:hover {
+    border-bottom: 1px solid black;
 }
 
 .brand-header {
@@ -76,13 +96,21 @@ a {
 
 
 .contact-header:hover {
-    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    background-color: hsla(220, 4%, 70%, 0.8);
+    color: white;
 }
 
 /* MAIN */
 
+body {
+    background-image: url(https://tailwindcss.com/_next/static/media/hero@75.b2469a49.jpg);
+    background-position: center center;
+    background-size: cover;
+}
 
 main {
+    background: linear-gradient(to bottom #DEF2FB #EBF6FC);
+
     max-width: 42rem;
     display: flex;
     justify-content: center;
