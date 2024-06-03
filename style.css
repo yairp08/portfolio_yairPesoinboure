@@ -45,7 +45,7 @@ a {
 }
 
 .languages a {
-    color:black;
+    color:hsl(221deg 39% 11% / 80%);
 }
 
 .languages a:hover {
@@ -96,7 +96,8 @@ a {
 
 
 .contact-header:hover {
-    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    background-color: hsla(220, 4%, 70%, 0.8);
+    color: white;
 }
 
 /* MAIN */
